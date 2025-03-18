@@ -1,0 +1,56 @@
+body{
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+}
+.container{
+    background-color: aquamarine;
+    max-width:1200px;
+    margin: 30px;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size:1rem;
+}
+
+
+
+@media(min-width:400px) and (max-width:600px)
+{
+    h1{
+        background-color: red;
+        font-size:1.5rem;
+    }
+    p{  
+        font-size: 1.2rem;
+    }
+}
+@media(min-width:600px) and (max-width:900px)
+{
+    h1{
+        background-color: rgb(43, 226, 98);
+        font-size:2.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
+@media(min-width:900px) and (max-width:1200px)
+{
+    h1{
+        background-color: rgb(255, 0, 183);
+        font-size:1.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
+logo {
+    padding:10px;
+    margin-right: 10px;
+}
+.signup-btn {
+    padding: 10px 20px;
+}
